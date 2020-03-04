@@ -82,3 +82,7 @@ textarea {
 #hidden3 {
     display: show;
 }
+
+.clickable {
+    cursor: pointer;
+}
