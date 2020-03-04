@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 body {
 	background-color: #F2F2F2;
 	margin: 1%;
@@ -151,12 +152,15 @@ nav a:hover {
 	border-radius: 30px;
 =======
 
+=======
+>>>>>>> added background, padding and size
 body {
   background-image: url(../image/background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 50px;
+<<<<<<< HEAD
 }
 /*.col-md-4 {
   background-image: url(../image/success1.jpeg);
@@ -212,4 +216,6 @@ p{
   background-color: blanchedalmond;
   padding: 10px;
 >>>>>>> first commit
+=======
+>>>>>>> added background, padding and size
 }
