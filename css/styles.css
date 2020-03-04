@@ -196,3 +196,7 @@ p{
   background-color: blanchedalmond;
   padding: 10px;
 }
+
+#more {
+  display: none;
+}
