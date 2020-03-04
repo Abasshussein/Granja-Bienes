@@ -1,12 +1,6 @@
-/* #choose {
-    border: 2px solid gold;
-    width: %;
+* {
+    background-image: url(../image/PLANT1.jpg);
 }
-
-form {
-    width: 50%;
-}
-*/
 
 #image1 {
     height: 246px;
