@@ -5,3 +5,10 @@ body {
   background-attachment: fixed;
   padding: 50px;
 }
+
+.container {
+  width: 90%;
+  overflow: hidden;
+  background: ;
+  margin-top: 20px auto
+}
