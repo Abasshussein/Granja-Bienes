@@ -1,3 +1,84 @@
-* {
-    background-color: rgb(236, 255, 255);
+/* #choose {
+    border: 2px solid gold;
+    width: %;
+}
+
+form {
+    width: 50%;
+}
+*/
+
+#image1 {
+    height: 246px;
+    width: 450px;
+}
+
+#banner {
+    border: 2px solid gold;
+    /* background-image: url(../image/PLANT1.jpg); */
+    background-color: rgb(184, 243, 169);
+    height: 250px;
+    display: flex;
+}
+
+#banner h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form {
+    border: 2px solid gold;
+    border-radius: 5%;
+    padding: 50px;
+    background-image: url(../image/plant2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 15, 3);
+}
+
+input {
+    opacity: 0.6;
+}
+
+select {
+    opacity: 0.6;
+}
+
+textarea {
+    opacity: 0.6;
+}
+
+#choose {
+    width: 150px;
+    margin-top: 40px;
+    border: 2px solid gold;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#showing {
+    display: none;
+}
+
+#showing2 {
+    display: none;
+}
+
+#showing3 {
+    display: none;
+}
+
+#hidden {
+    display: show;
+}
+
+#hidden2 {
+    display: show;
+}
+
+#hidden3 {
+    display: show;
 }

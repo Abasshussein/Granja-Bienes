@@ -4,49 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/join.css">
     <title>Document</title>
 </head>
 
 <body>
-    <form>
+    <div id="banner">
+        <img src="image/PLANT1.jpg" id="image1">
+        <h1>JOIN OUR COMMUNITY</h1>
+        <img src="image/plant3.jpeg" id="image1">
+    </div>
+    <div id="hom">
+        <div id="choose">
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Login in as;</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                   <option id="hidden" class="clickable"><b>CLIENT</b></option>
+                   <option id="hidden2" class="clickable2"><b>BROKER</b></option>
+                   <option id="hidden3" class="clickable3"><b>FARMER</b></option>
+                 </select>
+            </div>
+        </div>
+        <div id="too">
+            <form id="showing">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Full Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Tell;</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="07xxxxxxxxx">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Enter your Email;</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="kelvinchax@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Farmer choose what you supply</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                  <option>Fruits</option>
+                  <option>Cereals</option>
+                  <option>vegetables</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tell us a bit about your craft;</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tell us where your farm is located and anything else you'd want us to know about you.." rows="3"></textarea>
+                </div>
+            </form>
 
-        <div class="form-group">
-            <label for="">Login in as;</label>
-            <select class="form-control" id="choose">
-            <option><b>CLIENT</b></option>
-            <option><b>BROKER</b></option>
-            <option><b>FARMER</b></option>
-          </select>
+            <form id="showing2">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Full Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Tell;</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="07xxxxxxxxx">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Enter your Email;</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="kelvinchax@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Farmer choose what you supply</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                  <option>Fruits</option>
+                  <option>Cereals</option>
+                  <option>vegetables</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tell us a bit about your craft;</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tell us where your farm is located and anything else you'd want us to know about you.." rows="3"></textarea>
+                </div>
+            </form>
+
+            <form id="showing3">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Full Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Tell;</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="07xxxxxxxxx">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Enter your Email;</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="kelvinchax@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Farmer choose what you supply</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                  <option>Fruits</option>
+                  <option>Cereals</option>
+                  <option>vegetables</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tell us a bit about your craft;</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tell us where your farm is located and anything else you'd want us to know about you.." rows="3"></textarea>
+                </div>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Full Name</label>
-            <input type="email" class="form-control" id="name">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Tell;</label>
-            <input type="email" class="form-control" id="tel" placeholder="07xxxxxxxxx">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Enter your Email;</label>
-            <input type="email" class="form-control" id="email" placeholder="kelvinchax@gmail.com">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect2">Farmer choose what you supply</label>
-            <select multiple class="form-control" id="supply">
-            <option>Fruits</option>
-            <option>Cereals</option>
-            <option>vegetables</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Your Bio;</label>
-            <textarea class="form-control" id="textarea" placeholder="Optional for first time clients" rows="5"></textarea>
-        </div>
-    </form>
+
+    </div>
+
+
 </body>
 
 </html>
