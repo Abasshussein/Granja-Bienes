@@ -5,7 +5,7 @@
 
 #banner {
     border: 2px solid gold;
-    /* background-image: url(../image/PLANT1.jpg); */
+    background-image: url(../image/plant4.jpg);
     background-color: rgb(184, 243, 169);
     height: 250px;
     display: flex;
@@ -54,11 +54,11 @@ textarea {
 }
 
 #showing2 {
-    display: none;
+    display: noe;
 }
 
 #showing3 {
-    display: none;
+    display: noe;
 }
 
 #hidden {
