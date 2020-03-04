@@ -161,6 +161,7 @@ body {
   background-attachment: fixed;
   padding: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 /*.col-md-4 {
   background-image: url(../image/success1.jpeg);
@@ -179,12 +180,16 @@ body {
 }
 */
 
+=======
+}
+>>>>>>> modified container properties
 
 .container {
   width: 90%;
   overflow: hidden;
   background: ;
   margin-top: 20px auto
+<<<<<<< HEAD
 }
 
 .container ul li {
@@ -218,4 +223,6 @@ p{
 >>>>>>> first commit
 =======
 >>>>>>> added background, padding and size
+=======
+>>>>>>> modified container properties
 }
