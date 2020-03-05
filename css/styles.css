@@ -56,9 +56,12 @@ nav a:hover {
 
 .foo {
 	display: block;
-	background-color: grey;
+	background: transparent;
 	font-size: 30px;
 	font-family: 'Merriweather';
+	text-decoration: white;
+	color: white;
+
 }
 
 .fa-twitter {
@@ -84,7 +87,10 @@ nav a:hover {
 }
 
 .icons {
-	background-color: green;
+	background: transparent;
+	text-decoration: white;
+	color: white;
+
 }
 
 /* .slide { */
@@ -110,6 +116,8 @@ nav a:hover {
 .paragraph {
 	font-family: 'Merriweather';
 	font-size: 30px;
+	text-decoration: white;
+	color: white;
 }
 .styling{
 	border-radius: 30px;
