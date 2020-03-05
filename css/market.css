@@ -1,0 +1,132 @@
+.text1{
+    color: white;
+    text-align: center;
+    background-image: url(../images/alexandr-podvalny-WOxddhzhC1w-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: normal;
+    font-style: italic;
+}
+.row{
+    padding: 5px;
+    margin-left: 40px;
+}
+h1{
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  body {
+    background-color: #F2F2F2;
+    margin: 1%;
+    padding: 1%;
+}
+nav {
+    box-sizing: border-box;
+    border: 1px solid #06425C;
+    /* border: black;/ */
+    color: #06425C;
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding-left: 20px;
+    background-image: url('https://bit.ly/3alZCEs');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: sticky; */
+    /* position: -webkit-sticky; */
+    top: 0;
+}
+nav a {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: grey;
+    text-decoration: none;
+    margin: 1% 5% 1% 0;
+    padding: 10px 50px;
+    border-radius: 25px;
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
+    top: 0;
+    /* text-transform: uppercase; */
+}
+.current {
+    background-color: #800000;
+}
+nav a:hover {
+    color: #000000;
+    border-radius: 0;
+}
+#fruit{
+  border: 2px solid green;
+  background-color: red;
+}
+#cereals{
+  border: 2px solid blue;
+  background-color: chartreuse;
+}
+#vege{
+  border: 2px solid brown;
+  background-color: burlywood;
+}
+.last {
+  text-align: center;
+  /* display: block; */
+}
+.foo {
+  display: block;
+  background-color: grey;
+  font-size: 30px;
+  font-family: 'Merriweather';
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #DD4B39;
+  color: white;
+  margin: 20px;
+}
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+.fa-youtube {
+  background: #BB0000;
+  color: white;
+  margin: 20px;
+}
+.icons {
+  background-color: green;
+}
+body{
+  background-image: url(../images/annie-spratt-yUZU943bPf4-unsplash.jpg);
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: normal;
+    font-style: italic;
+}
