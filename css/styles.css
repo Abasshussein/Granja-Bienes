@@ -249,3 +249,13 @@ nav a:hover {
   color: #000000;
   border-radius: 0;
 }
+
+.last {
+  text-align: center;
+  /* display: block; */
+}
+.foo {
+  display: block;
+  background-color: grey;
+  font-size: 30px;
+  font-family: 'Merriweather';
