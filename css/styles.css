@@ -186,6 +186,7 @@ body {
 
 p{
   color: black;
+  padding: 10px;
 }
 
 .thumbnail {
@@ -199,4 +200,9 @@ p{
 
 #more {
   display: none;
+}
+
+.opeq {
+  background-color: blanchedalmond;opacity: 0.6;
+  
 }
