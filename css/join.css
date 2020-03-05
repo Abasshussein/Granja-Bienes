@@ -27,15 +27,15 @@ form {
     color: rgb(0, 15, 3);
 }
 
-input {
+#input1 {
     background: transparent;
 }
 
-select {
+#select2 {
     background: transparent;
 }
 
-textarea {
+#textarea1 {
     background: transparent;
 }
 
@@ -114,7 +114,7 @@ nav a {
     background-color: grey;
     text-decoration: none;
     margin: 1% 5% 1% 0;
-    padding: 1% 5%;
+    padding: 10px 50px;
     border-radius: 25px;
     /* position: -webkit-sticky; */
     /* position: sticky; */
@@ -136,3 +136,41 @@ nav a:hover {
     background-image: url(../image/1d4d092471961efd2d00558cd7249de3.png);
     background-repeat: no-repeat;
 } */
+
+.last {
+    text-align: center;
+    /* display: block; */
+}
+
+.foo {
+    display: block;
+    background-color: grey;
+    font-size: 30px;
+    font-family: 'Merriweather';
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #DD4B39;
+    color: white;
+    margin: 20px;
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+}
+
+.fa-youtube {
+    background: #BB0000;
+    color: white;
+    margin: 20px;
+}
+
+.icons {
+    background-color: green;
+}
