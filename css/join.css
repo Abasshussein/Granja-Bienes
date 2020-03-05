@@ -1,0 +1,191 @@
+#image1 {
+    height: 246px;
+    width: 450px;
+}
+
+#banner {
+    border: 2px solid gold;
+    background-image: url(../image/plant4.jpg);
+    background-color: rgb(184, 243, 169);
+    height: 250px;
+}
+
+#banner h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+form {
+    border: 2px solid gold;
+    border-radius: 5%;
+    padding: 50px;
+    background-image: url(../image/plant2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 15, 3);
+}
+
+#input1 {
+    background: transparent;
+    color: rgb(0, 15, 3);
+}
+
+#select2 {
+    background: transparent;
+    color: rgb(0, 15, 3);
+}
+
+#textarea1 {
+    background: transparent;
+    color: rgb(0, 15, 3);
+}
+
+#choose {
+    width: 150px;
+    margin-top: 40px;
+    border: 2px solid gold;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#showing {
+    display: none;
+}
+
+#showing2 {
+    display: none;
+}
+
+#showing3 {
+    display: none;
+}
+
+#hidden {
+    display: show;
+}
+
+#hidden2 {
+    display: show;
+}
+
+#hidden3 {
+    display: show;
+}
+
+.clickable {
+    cursor: pointer;
+    border: 1px solid green;
+    color: white;
+}
+
+.clickable2 {
+    cursor: pointer;
+    border: 1px solid rgb(245, 200, 1);
+    color: white;
+}
+
+.clickable3 {
+    cursor: pointer;
+    border: 1px solid rgb(9, 2, 71);
+    color: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-image: url(../image/bg.jpg);
+    margin: 1%;
+    padding: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oxanium', Cursive;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+}
+
+nav {
+    box-sizing: border-box;
+    border: 1px solid #06425C;
+    color: #06425C;
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding-left: 20px;
+    background-image: url('https://bit.ly/3alZCEs');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+nav a {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: grey;
+    text-decoration: none;
+    margin: 1% 5% 1% 0;
+    padding: 10px 50px;
+    border-radius: 25px;
+    top: 0;
+}
+
+.current {
+    background-color: #800000;
+}
+
+nav a:hover {
+    color: #000000;
+    border-radius: 0;
+}
+
+.last {
+    text-align: center;
+}
+
+.foo {
+    display: block;
+    background: transparent;
+    font-size: 30px;
+    font-family: 'Merriweather';
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #DD4B39;
+    color: white;
+    margin: 20px;
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+}
+
+.fa-youtube {
+    background: #BB0000;
+    color: white;
+    margin: 20px;
+}
+
+.icons {
+    background-color: green;
+}
+
+#bit {
+    color: white;
+}
