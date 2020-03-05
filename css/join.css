@@ -29,15 +29,15 @@ form {
 }
 
 input {
-    opacity: 0.6;
+    background: transparent;
 }
 
 select {
-    opacity: 0.6;
+    background: transparent;
 }
 
 textarea {
-    opacity: 0.6;
+    background: transparent;
 }
 
 #choose {
@@ -54,11 +54,11 @@ textarea {
 }
 
 #showing2 {
-    display: noe;
+    display: none;
 }
 
 #showing3 {
-    display: noe;
+    display: none;
 }
 
 #hidden {
