@@ -1,40 +1,43 @@
 body {
-    background-color: #F2F2F2;
-    margin: 1%;
-    padding: 1%;
-    color: black;
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding: 1%;
+	background-image: url('https://bit.ly/2VMdK6b');
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
 }
 
 nav {
-    box-sizing: border-box;
-    border: 1px solid #06425C;
-    /* border: black;/ */
-    color: #06425C;
-    background-color: #FFFFFF;
-    overflow: auto;
-    padding-left: 20px;
-    background-image: url('https://bit.ly/3alZCEs');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+	box-sizing: border-box;
+	border: 1px solid #06425C;
+	/* border: black;/ */
+	color: #06425C;
+	background-color: #FFFFFF;
+	overflow: auto;
+	padding-left: 20px;
+	background-image: url('https://bit.ly/3alZCEs');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* position: sticky; */
+	/* position: -webkit-sticky; */
+	top: 0;
 }
 
 nav a {
-    box-sizing: border-box;
-    display: inline-block;
-    height: 60px;
-    color: #FFFFFF;
-    background-color: grey;
-    text-decoration: none;
-    margin: 1% 5% 1% 0;
-    padding: 1% 5%;
-    border-radius: 25px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    /* text-transform: uppercase; */
+	box-sizing: border-box;
+	display: inline-block;
+	height: 60px;
+	color: #FFFFFF;
+	background-color: grey;
+	text-decoration: none;
+	margin: 1% 5% 1% 0;
+	padding: 1% 5%;
+	border-radius: 25px;
+	/* position: -webkit-sticky; */
+	/* position: sticky; */
+	top: 0;
+	/* text-transform: uppercase; */
 }
 
 .current {
@@ -52,8 +55,10 @@ nav a:hover {
 }
 
 .foo {
-    display: block;
-    background-color: grey;
+	display: block;
+	background-color: grey;
+	font-size: 30px;
+	font-family: 'Merriweather';
 }
 
 .fa-twitter {
@@ -79,5 +84,34 @@ nav a:hover {
 }
 
 .icons {
-    background-color: green;
+	background-color: green;
+}
+
+/* .slide { */
+
+/* color: #eee; */
+
+/* text-align: center; */
+
+/* margin: 0; */
+
+/* font-size: 15px; */
+
+/* color: #999; */
+
+/* letter-spacing: 1px; */
+
+}
+
+.mySlides {
+	display: none;
+}
+
+.paragraph {
+	font-family: 'Merriweather';
+	font-size: 30px;
+}
+.styling{
+	border-radius: 30px;
+  background-color: green;
 }
